@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shyam Shukla - Professional Frontend Developer</title>
+    <meta name="description" content="Expert Frontend Developer specializing in HTML, CSS, JavaScript, React, and modern web applications">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Shyam.Creations</span>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>🚀 Available for Freelance</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    Hi, I'm <span class="text-gradient">Shyam Shukla</span>
+                    <div class="title-underline"></div>
+                </h1>
+                
+                <p class="hero-description">
+                    Professional <strong>Frontend Developer</strong> specializing in creating 
+                    modern, responsive, and high-performing web applications. 
+                    I transform ideas into digital reality.
+                </p>
+
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i>
+                        Hire Me
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="profile-image">
+                    <img src="assets/profile image.jpg" alt="Shyam Shukla">
+                    <div class="image-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Get to know more about my journey and passion</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-content">
+                    <h3>Creating Digital Experiences That Matter</h3>
+                    <p>
+                        I'm a passionate frontend developer with expertise in modern web technologies. 
+                        I specialize in building responsive, user-friendly websites and applications 
+                        that deliver exceptional user experiences.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-mobile-alt"></i>
+                            <div>
+                                <h4>Mobile First</h4>
+                                <p>Responsive designs that work perfectly on all devices</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-bolt"></i>
+                            <div>
+                                <h4>Fast & Optimized</h4>
+                                <p>Lightning-fast websites with optimal performance</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Clean Code</h4>
+                                <p>Well-structured and maintainable codebase</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="assets/about me image .jpg" alt="Working Environment">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Skills</h2>
+                <p>Technologies I work with</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS3/SCSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Git/GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                            <span class="skill-percent">88%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Responsive Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92"></div>
+                            </div>
+                            <span class="skill-percent">92%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">UI/UX Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Web Performance</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82"></div>
+                            </div>
+                            <span class="skill-percent">82%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <div class="section-header">
+            <h2>Featured Projects</h2>
+            <p>Some of my best work</p>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 1: FlickPro -->
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="assets/flickpro.png" alt="FlickPro Movie App">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://0x5hy4m.github.io/Flickpro/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/Shyamzx02" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>FlickPro - Movie Discovery</h3>
+                    <p>Modern movie search application with intuitive UI and seamless user experience for film enthusiasts.</p>
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>API Integration</span>
+                        <span>Responsive</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 2: Trusted Home -->
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="assets/trusted home.png" alt="Trusted Home Services">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://0x5hy4m.github.io/Trusted-home/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/Shyamzx02" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Trusted Home Services</h3>
+                    <p>Professional home services website with service listings, customer testimonials and booking system.</p>
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Business Design</span>
+                        <span>Mobile First</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 3: Linkflick -->
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="assets/linkflick image.png" alt="Linkflick Affiliate">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://0x5hy4m.github.io/Linkflick.com_/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/Shyamzx02" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Linkflick Affiliate Platform</h3>
+                    <p>Complete affiliate marketing platform with modern dashboard and conversion optimization features.</p>
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Affiliate Marketing</span>
+                        <span>UI/UX Design</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 4: BluePill -->
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="assets/blue pill image.png" alt="BluePill Landing">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://bluepill.netlify.app/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/Shyamzx02" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>BluePill Landing Page</h3>
+                    <p>High-converting sales page with persuasive copy, engaging visuals and optimized user flow.</p>
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Conversion Optimization</span>
+                        <span>Sales Funnel</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 5: Core Matrix -->
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="assets/core matrix .png" alt="Core Matrix">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://0x5hy4m.github.io/Core-Matrix-Singularity/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/Shyamzx02" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Core Matrix Technology</h3>
+                    <p>Advanced tech company website with interactive elements and futuristic design approach.</p>
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Animations</span>
+                        <span>Tech Design</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 6: Booting System -->
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="assets/booting ui.png" alt="Booting System">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://0x5hy4m.github.io/Booting-System/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/Shyamzx02" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Booting System UI</h3>
+                    <p>Creative operating system boot interface simulation with realistic loading animations.</p>
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Creative Design</span>
+                        <span>Animation</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="section-header">
+            <h2>Contact Me</h2>
+            <p>Message me directly on WhatsApp</p>
+        </div>
+
+        <div style="text-align: center; padding: 50px 0;">
+            <!-- Big WhatsApp Button -->
+            <a href="https://wa.me/917318344692?text=Hi%20Shyam%2C%20I%20saw%20your%20portfolio%20and%20want%20to%20discuss%20a%20project." 
+               style="display: inline-block; 
+                      background: #25D366; 
+                      color: white; 
+                      padding: 20px 40px; 
+                      border-radius: 50px; 
+                      text-decoration: none; 
+                      font-size: 20px; 
+                      font-weight: bold;
+                      margin: 20px;">
+                <i class="fab fa-whatsapp"></i> Message on WhatsApp
+            </a>
+            
+            <div style="margin-top: 30px;">
+                <p>Or contact via:</p>
+                <div style="margin-top: 20px;">
+                    <a href="mailto:shyamexy061@gmail.com" 
+                       style="color: #6366f1; margin: 0 15px; text-decoration: none;">
+                        <i class="fas fa-envelope"></i> Email
+                    </a>
+                    <a href="tel:+917318344692" 
+                       style="color: #6366f1; margin: 0 15px; text-decoration: none;">
+                        <i class="fas fa-phone"></i> Call
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer Section -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <!-- Brand Section -->
+            <div class="footer-brand">
+                <h3>Shyam Shukla</h3>
+                <p>Frontend Developer</p>
+                <p>Creating amazing digital experiences</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <!-- Services -->
+            <div class="footer-services">
+                <h4>Services</h4>
+                <a href="#projects">Website Development</a>
+                <a href="#projects">Landing Pages</a>
+                <a href="#projects">UI/UX Design</a>
+                <a href="#projects">Responsive Design</a>
+                <a href="#projects">Email Templates</a>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-contact">
+                <h4>Get In Touch</h4>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>shyamexy061@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 7318344692</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>India</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Social Links -->
+        <div class="footer-social">
+            <a href="https://github.com/Shyamzx02" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/shyam-shukla-836b77362" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.facebook.com/shyam.shukla.934718" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/_corematrix_0" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2024 Shyam Shukla. All rights reserved.</p>
+            <p>Built with ❤️ using HTML, CSS & JavaScript</p>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
